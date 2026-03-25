@@ -61,7 +61,7 @@ jobs:
 
   build_project_sonar_scan:
     runs-on: self-hosted
-    needs: security-check
+    needs: test
 
     steps:
     - uses: actions/checkout@v4
